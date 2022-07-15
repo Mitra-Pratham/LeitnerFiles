@@ -1,4 +1,4 @@
-const gFontAPIKey = "AIzaSyAsnPiUW3Hf0fje0IbBRji867S6PYCy5mo";
+const gFontAPIKey = "";
 
 let gFontsArray = [];
 
