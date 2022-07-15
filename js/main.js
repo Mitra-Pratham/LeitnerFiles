@@ -7,5 +7,12 @@ $('#ranger').on('input', function(){
 });
 
 function setFont(){
-    let gFontVal = String($('#font-picker').val());
+    let gFontVal = gFontsArray.find(e => {
+        return e.family == $('#font-picker').val() ? e : '';
+    })
+    // console.log($('#font-picker').val())
+    // console.log(gFontVal)
+
+    $('#main-font').attr('href',`https://fonts.googleapis.com/css2?family=${gFontVal.family}&display=swap`)
+    $('body').css('font-family',`"${gFontVal.family}", ${gFontVal.type}`);
 }

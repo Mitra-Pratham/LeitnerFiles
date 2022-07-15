@@ -7,20 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link id="main-font" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Leitner</title>
 </head>
 
 <body>
     <div class="pt-5">
         <div class="container">
-
-            <h1 id="heading">Hello World</h1>
-            <div class="pt-3 w-25">
+            <div class="pb-3 w-25">
                 <label for="customRange1" class="form-label">Changing Heading Font Size</label>
-                <input id="ranger" type="range" class="form-range" min="16" max="100" value="40">
-                <select id="font-picker" class="form-select" onchange="setFont()" >
-                  </select>
+                <input id="ranger" type="range" class="form-range" min="100" max="150" value="100">
+                <select id="font-picker" class="form-select" onchange="setFont()">
+                </select>
             </div>
+            <h1 id="heading">Hello World</h1>
+            <h2 class="pt-2">Heading 2</h2>
+            <h3 class="pt-2">Heading 3</h3>
+            <h4 class="pt-2">Heading 4</h4>
+            <h5 class="pt-2">Heading 5</h5>
+            <h6 class="pt-2">Heading 6</h6>
+
         </div>
     </div>
 
