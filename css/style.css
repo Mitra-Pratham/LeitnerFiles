@@ -5,3 +5,14 @@ body{
 h1{
     font-size: 100px;
 }
+
+#font-controls{
+    width: 25%;
+}
+
+@media screen and (max-width:768px){
+    #font-controls{
+        width: 100%;
+    }
+    
+}
